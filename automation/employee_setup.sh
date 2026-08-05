@@ -2,9 +2,13 @@
 
 echo "Starting employee setup..."
 
-mkdir Employee 
+echo "Enter employee name:"
 
-cd Employee
+read employee
+
+mkdir "$employee" 
+
+cd "$employee"
 
 mkdir Documents Desktop Downloads Pictures
 
